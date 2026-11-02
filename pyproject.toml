@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "quinnicho-inferobs_jd437"
+name = "quinnicho-kv_cache_reuse_schema_check"
 version = "0.1.0"
 description = "从样本里推断模型服务可观测性工程师·KV Cache 复用与前缀共享应有的字段集合，逐字段检查存在性与类型，缺失项单独列出"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://quinnicho.github.io"
-Repository = "https://github.com/quinnicho/inferobs_jd437"
-Issues = "https://github.com/quinnicho/inferobs_jd437/issues"
+Repository = "https://github.com/quinnicho/kv_cache_reuse_schema_check"
+Issues = "https://github.com/quinnicho/kv_cache_reuse_schema_check/issues"
 
 [project.scripts]
-inferobs_jd437 = "inferobs_jd437:main"
+kv_cache_reuse_schema_check = "kv_cache_reuse_schema_check:main"
 
 [tool.setuptools]
-py-modules = ["inferobs_jd437"]
+py-modules = ["kv_cache_reuse_schema_check"]
